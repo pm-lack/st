@@ -1,3 +1,6 @@
+# deployed by pm-larbs
+https://github.com/pm-lack/pm-larbs
+
 # Luke's build of st - the simple (suckless) terminal
 
 The [suckless terminal (st)](https://st.suckless.org/) with some additional
