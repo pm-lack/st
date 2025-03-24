@@ -24,8 +24,6 @@ features that make it literally the best terminal emulator ever:
 + Compatibility with `Xresources` and `pywal` for dynamic colors.
 + Default [gruvbox](https://github.com/morhetz/gruvbox) colors otherwise.
 + Transparency/alpha, which is also adjustable from your `Xresources`.
-+ Default font is system "mono" at 14pt, meaning the font will match your
-  system font.
 
 ## Other st patches
 
@@ -43,11 +41,6 @@ git clone https://github.com/LukeSmithxyz/st
 cd st
 sudo make install
 ```
-
-Obviously, `make` is required to build. `fontconfig` is required for the
-default build, since it asks `fontconfig` for your system monospace font. It
-might be obvious, but `libX11` and `libXft` are required as well. Chances are,
-you have all of this installed already.
 
 On OpenBSD, be sure to edit `config.mk` first and remove `-lrt` from the
 `$LIBS` before compiling.
