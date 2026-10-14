@@ -115,28 +115,33 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
+	/* 8 normal colors */
+	"#45475a", /* black   */
+	"#f38ba8", /* red     */
+	"#a6e3a1", /* green   */
+	"#f9e2af", /* yellow  */
+	"#89b4fa", /* blue    */
+	"#f5c2e7", /* magenta */
+	"#94e2d5", /* cyan    */
+	"#bac2de", /* white   */
+
+	/* 8 bright colors */
+	"#585b70", /* bright black   */
+	"#f38ba8", /* bright red     */
+	"#a6e3a1", /* bright green   */
+	"#f9e2af", /* bright yellow  */
+	"#89b4fa", /* bright blue    */
+	"#f5c2e7", /* bright magenta */
+	"#94e2d5", /* bright cyan    */
+	"#a6adc8", /* bright white   */
+
 	[255] = 0,
+
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
-	"#555555", /* 257 -> rev cursor*/
-	"#282828", /* 258 -> bg */
-	"#ebdbb2", /* 259 -> fg */
+	"#f5e0dc", /* 256 -> cursor (Mocha "rosewater") */
+	"#555555", /* 257 -> rev cursor */
+	"#222222", /* 258 -> bg, same as dwm normbgcolor */
+	"#cdd6f4", /* 259 -> fg */
 };
 
 
