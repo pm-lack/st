@@ -5,9 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "CaskaydiaMonoNerdFontMono-Bold:pixelsize=15:antialias=true:autohint=true";
-/* static char *font = "mono:pixelsize=15:antialias=true:autohint=true"; */
-static char *font2[] = { "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "Misc Tamzen:size=10";
+static char *font2[] = {
+	"Misc Tamzen:size=10"
+};
 /* static char *font2[] = { "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true" }; */
 static int borderpx = 16;
 
