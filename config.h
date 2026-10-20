@@ -142,7 +142,7 @@ static const char *colorname[] = {
 	"#f5e0dc", /* 256 -> cursor (Mocha "rosewater") */
 	"#555555", /* 257 -> rev cursor */
 	"#222222", /* 258 -> bg, same as dwm normbgcolor */
-	"#cdd6f4", /* 259 -> fg */
+	"#e4e4e4", /* 259 -> fg */
 };
 
 
